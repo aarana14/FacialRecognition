@@ -3,7 +3,6 @@ import cv2
 import numpy as np
 import os
 import glob
-from pathlib import Path
 
 def setUp(current_dir):
     path = os.path.join(current_dir, 'FacialRecognition/data/faces/')
