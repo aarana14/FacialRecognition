@@ -23,8 +23,8 @@ Facial detection and recognition using OpenCV in Python.
 Python 3.9
 
 <h2>Libraries & Tools</h2>
-OpenCV
-face_recognition
+OpenCV <br>
+face_recognition <br>
 numpy
 
 <h2>License</h2>
