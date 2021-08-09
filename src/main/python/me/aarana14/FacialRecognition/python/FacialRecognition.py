@@ -12,7 +12,7 @@ def setUp(current_dir):
     for dirpath,_,filenames in os.walk(path):
         for name in filenames:
             if name.endswith('.jpg'):
-                list_of_files.append(os.path.join(path,dirpath,name))
+                list_of_files.append(os.path.join(path, dirpath,name))
     number_files = len(list_of_files)
     return list_of_files.copy(), number_files, list_of_files
 
