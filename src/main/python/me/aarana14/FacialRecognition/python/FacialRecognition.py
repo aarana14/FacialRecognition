@@ -6,7 +6,6 @@ import glob
 
 def setUp(current_dir):
     path = os.path.join(current_dir, 'FacialRecognition/data/faces/')
-    # list_of_files = [f for f in glob.glob(path + '*' + '*.jpg')]
     list_of_files = []
     for dirpath,_,filenames in os.walk(path):
         for name in filenames:
@@ -47,12 +46,11 @@ def display(frame, face_locations, face_names):
         left *= 4
         
         # Draw a rectangle around the face
-        cv2.rectangle(frame, (left, top), (right, bottom), (0, 255, 0), 2)
+        cv2.rectangle(frame, (left, top), (right, bottom), (0, 255, 0), 1)
         
         # Input text label with a name below the face
-        cv2.rectangle(frame, (left, bottom - 35), (right, bottom), (0, 255, 0), cv2.FILLED)
         font = cv2.FONT_HERSHEY_DUPLEX
-        cv2.putText(frame, name, (left + 6, bottom - 6), font, 1.0, (255, 255, 255), 1)
+        cv2.putText(frame, name, (left, bottom + 25), font, 0.7, (255, 255, 255), 1)
     
     # Display the resulting image
     cv2.imshow('Video', frame)
