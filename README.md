@@ -11,7 +11,7 @@ Facial detection and recognition using OpenCV in Python.
   <a href="https://opencv.org/releases/">
     <img src="https://img.shields.io/badge/OpenCV-4.3.0-blue.svg" alt="OpenCV-4.3.0">
   </a>
-  <a href="https://GitHub.com/aarana14/FacialRecognition/releases">
+  <a href="https://github.com/aarana14/FacialRecognition/releases/tag/0.1">
     <img src="https://img.shields.io/github/release/aarana14/FacialRecognition.svg" alt="release">
   </a>
   <a href="LICENSE.md">
