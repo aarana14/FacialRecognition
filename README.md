@@ -12,10 +12,10 @@ Facial detection and recognition using OpenCV in Python.
     <img src="https://img.shields.io/badge/OpenCV-4.3.0-blue.svg" alt="OpenCV-4.3.0">
   </a>
   <a href="https://GitHub.com/aarana14/FacialRecognition/releases">
-    <img src="https://img.shields.io/github/release/JakeJMattson/FacialRecognition.svg" alt="release">
+    <img src="https://img.shields.io/github/release/aarana14/FacialRecognition.svg" alt="release">
   </a>
   <a href="LICENSE.md">
-    <img src="https://img.shields.io/github/license/JakeJMattson/FacialRecognition.svg">
+    <img src="https://img.shields.io/github/license/aarana14/FacialRecognition.svg">
   </a>
 </p>
 
