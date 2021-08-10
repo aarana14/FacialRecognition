@@ -29,4 +29,4 @@ face_recognition <br>
 numpy
 
 <h2>License</h2>
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE.md</a> file for details
