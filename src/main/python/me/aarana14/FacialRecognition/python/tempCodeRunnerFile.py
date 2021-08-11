@@ -1,0 +1,1 @@
+Facial_RecognitionApp(self.det_rec_out.getRET(), self.det_rec_out.getFrame()).run()
